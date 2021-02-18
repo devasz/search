@@ -1,0 +1,226 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: small;
+    background: #ffffff;
+    color: #222222;
+}
+
+body, td, a {
+    font-family: arial, sans-serif;
+}
+
+a {
+    background-color: #ffffff;
+    color: #222222;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #ffffff;
+    color: #555555;
+    text-decoration: underline;
+}
+
+a:active, a:visited {
+    background-color: #ffffff;
+    color: #222222;
+    text-decoration: underline;
+}
+
+#links, #as_links {
+    padding: 20px;
+    text-align: right;
+}
+
+#nbsp {
+    padding-right: 15px;
+}
+
+#form {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#logo {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 109px;
+    height: 92px;
+    width: 272px;
+}
+
+input[type="text"]#search {
+    margin: 20px 0;
+}
+
+input[type="text"]#search {
+    padding: 13px 13px 13px 25px;
+    min-width: 450px;
+    background-color: #ffffff;
+    color: #222222;
+    border-radius: 25px;
+    border: gainsboro solid 1px;
+    outline: none;
+}
+
+input[type="text"]#search:hover {
+    padding: 13px 13px 13px 25px;
+    min-width: 450px;
+    background-color: #ffffff;
+    color: #222222;
+    border-radius: 25px;
+    border-color: rgb(223, 225, 229, 0);
+    box-shadow: 0 1px 6px 0 rgb(32, 33, 36, 0.28);
+    outline: none;
+}
+
+.buttons {
+    height: 70px;
+}
+
+.buttons input[type="submit"] {
+    background-image: linear-gradient(to top, #f5f5f5, #f1f1f1);
+    background-color: #f2f2f2;
+    border: #f1f1f1 solid 1px;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.buttons input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgb(0, 0, 0, 0.1);
+    background-image: linear-gradient(to top, #f8f8f8, #f1f1f1);
+    background-color: #f8f8f8;
+    border: #c6c6c6 solid 1px;
+    color: #222222;
+}
+
+.buttons input[type="submit"]:focus {
+    border: #4d90fe solid 1px;
+    outline: none;
+}
+
+div#as_container {
+    width: auto;
+    margin: 40px 5px 0 45px;
+}
+
+#as_header {
+    background-color: #ffffff;
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+#as_label {
+    margin-left: 10px;
+}
+
+#as_find_header {
+    font-size: 1.4em;
+    background-color: #ffffff;
+    color: #333333;
+    height: 30px;
+}
+
+#as_help_header {
+    font-size: 1.1em;
+    font-weight: bolder;
+    color: #777777;
+    background-color: #ffffff
+}
+
+.as_help_text {
+    min-width: 300px;
+    max-width: 300px;
+    font-size: 1em;
+    color: #666666;
+    background-color: #ffffff
+}
+
+input#as_button {
+    float: right;
+    margin: 10px 0;
+    padding: 8px 14px;
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: linear-gradient(to top, #4d90fe, #4787ed);
+    border: #3079ed solid 1px;
+    color: #ffffff;
+    border-radius: 2px;
+    font-size: 0.85em;
+    font-weight: bolder;
+}
+
+input#as_button:hover {
+    float: right;
+    margin: 10px 0;
+    padding: 8px 14px;
+    box-shadow: none;
+    background-color: #357ae8;
+    background-image: linear-gradient(to top, #4d90fe, #357ae8);
+    border: #2f5bb7 solid 1px;
+    color: #ffffff;
+    border-radius: 2px;
+    font-size: 0.85em;
+    font-weight: bolder
+}
+
+input#as_button:focus {
+    margin: 10px 0;
+    padding: 8px 14px;
+    box-shadow: inset 0 0 0 1px #ffffff;
+    border: 1px solid #000000;
+    border: rgba(0, 0, 0, 0) solid 1px;
+    outline: rgba(0, 0, 0, 0) 0;
+    border-radius: 2px;
+    font-size: 0.85em;
+    font-weight: bolder;
+}
+
+#frame {
+    padding: 20px 400px 0 30px;
+}
+
+hr#as_line {
+    border: #f0f1f0 dotted 1px;
+}
+
+table {
+    padding: 0;
+    font-size: 0.85em;
+}
+
+td {
+    min-width: 150px;
+    padding: 0 15px 10px 0;
+    font-size: small;
+}
+
+input[type="text"].as_find_input {
+    border-radius: 1px;
+    border: #d9d9d9 solid 1px;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    min-width: 475px;
+}
+
+input[type="text"].as_find_input:focus {
+    box-shadow: 0 1px 2px rgb(0, 0, 0, 0.3) inset;
+    border: #4d90fe solid 1px;
+    outline: none;
+}
+
